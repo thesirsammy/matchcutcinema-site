@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/hamburger.css">
+      <link type="text/css" rel="stylesheet" href="lightgallery/css/lightgallery-bundle.css" />
+      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+      <title>Match Cut Cinema</title>
+   </head>
+   <body>
+      <div class="menu">
+         <nav id="main-menu" class="menu__nav">
+           <ul class="menu__list r-list">
+             <li class="menu__group" role="none">
+               <a href="#home" class="menu__link r-link">Home</a>
+             </li>
+             <li class="menu__group" role="none">
+               <a href="#intro" class="menu__link r-link">About</a>
+             </li>
+             <li class="menu__group" role="none">
+               <a href="#portfolio" class="menu__link r-link">Portfolio</a>
+             </li>
+           </ul>
+         </nav>
+         <button class="menu__toggle r-button" type="button" aria-controls="main-menu" aria-expanded="false">
+           <span class="menu__hamburger m-hamburger">
+             <span class="m-hamburger__label">
+               <span class="menu__toggle-hint screen-reader">Open menu</span>
+             </span>
+           </span>
+         </button>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+         <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </button>
+      <div class="nav-wrap">
+         <div class="nav" id="nav">
+            <!--<img class="logo" src="">-->
+            <ul class="nav-logo">
+               <li>MATCH</li>
+               <li>CUT</li>
+               <li>CINEMA</li>
+            </ul>
+            <ul class="nav-list">
+               <li><a href="#home">Home ></a></li>
+               <li><a href="#intro">About ></a></li>
+               <li><a href="#portfolio">Portfolio ></a></li>
+            </ul>
+            <div class="nav-contact">
+               <a href="#contact"><span>CONTACT</span></a>
+            </div>
+         </div>
+      </div>
+      <div class="header" id="home">
+         <video autoplay muted loop>
+            <source src="img/banner.mp4" type="video/mp4">
+         </video>
+         <div class="overlay"></div>
+         <div class="hero">
+            <div class="hero-left">
+               <ul>
+                  <li>MATCH CUT</li>
+
+                  <li>CINEMA</li>
+               </ul>
+            </div>
+            <div class="hero-right">
+               <a href="#intro" class="hero-begin"><span>GET STARTED</span></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="intro" id="intro">
+         <div class="intro-left">
+            <div class="intro-left-text">Reflecting the Light</div>
+            <hr class="intro-left-bar">
+         </div>
+         <div class="intro-right">
+            Faith Kazim is a director and screenwriter pursuing a Bachelor of Arts in filmmaking. Among other achievements, she's been crucially involved in numerous short films that have gone on to win Viddys and AVA Digital Awards.
+            She loves telling redemptive and thought-provoking stories, but always with a touch of humor and wit. Her debut short film, <em>Jasper</em>, premiered at Palm Beach Atlantic University's Cinema Showcase in April 2024.
+         </div>
+      </div>
+
+      <div class="showoff">
+         <div class="showoff-zone">
+            <div class="showoff-zone-description">
+               <div class="showoff-zone-text">
+                  On the set of <em>Jasper</em>, Match Cut Cinema's latest short film. It showcases one man's quest for revenge, and the surprising choice he finds himself making.  
+               </div>
+               <hr class="showoff-zone-bar">
+            </div>
+            <img src="img/showoff-1.jpeg">
+         </div>
+         <div class="showoff-zone">
+            <img src="img/showoff-2.jpeg">
+            <div class="showoff-zone-description">
+               <div class="showoff-zone-text">
+                  On the set of <em>The Chosen</em> with Jonathan Roumie, interning with the producers of the television series that has brought the gospel to millions of people across the globe.
+               </div>
+               <hr class="showoff-zone-bar">
+            </div>
+         </div>
+      </div>
+
+      <div class="about" id="services">
+         <div class="about-title">Awards</div>
+         <div class="about-text">
+            Check out some of our films' accolades:
+         </div>
+         <div class="about-services">
+            <div class="about-service-box">
+               <!--<div class="about-service-line"></div>-->
+               <i class="fa fa-pencil fa-3x" aria-hidden="true"></i>
+               <div class="about-service-title">Writer</div>
+               <div class="about-service-description"><em>MisTAKEN</em> - Platinum AVA Digital Award - <strong>Gold Viddy</strong>
+               </div>
+            </div>
+            <div class="about-service-box">
+               <i class="fa fa-file-text fa-3x" aria-hidden="true"></i>
+               <div class="about-service-title">Editor</div>
+               <div class="about-service-description"><em>Cough Syrup</em> - Gold AVA Digital Award - <strong>Silver Telly</strong>
+               </div>
+            </div>
+            <div class="about-service-box">
+               <i class="fa fa-bullhorn fa-3x" aria-hidden="true"></i>
+               <div class="about-service-title">Communicator</div>
+               <div class="about-service-description">Communicator Award of Excellence - <strong>BEA Award of Excellence</strong>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="films" id="portfolio">
+         <div class="films-title">Portfolio</div>
+         <div class="films-text">
+            Here is a collection of some of our best films!
+         </div>
+         <div class="gallery">
+            <div id="gallery-videos">
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://vimeo.com/962403244"
+                  data-poster="img/Jasper.jpg"
+                  data-sub-html="<h4>Jasper | Match Cut Cinema | Directed by Faith Kazim</h4><p>A man's journey from revenge to forgiveness</p>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="img/Jasper.jpg"
+                  />
+               </a>
+               <!--New Video-->
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://vimeo.com/962423415"
+                  data-poster="img/MforMurder.jpg"
+                  data-sub-html="<h4>Type M for Murder | Capital 9 Studios | Written by Faith Kazim</h4>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="img/MforMurder.jpg"
+                  />
+               </a>
+               <!--New Video-->
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://vimeo.com/871624530"
+                  data-poster="img/Mistaken.jpg"
+                  data-sub-html="<h4>MisTAKEN | Match Cut Cinema | Written by Faith Kazim</h4>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="img/Mistaken.jpg"
+                  />
+               </a>
+               <!--New Video-->
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://www.youtube.com/watch?v=094VSK01V5Y&mute=0"
+                  data-poster="https://img.youtube.com/vi/094VSK01V5Y/maxresdefault.jpg"
+                  data-sub-html="<h4>Two Pink Lines | Match Cut Cinema | Directed by Faith Kazim</h4><p>Diane faces an unplanned pregnancy and goes for an ultrasound.</p>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="https://img.youtube.com/vi/094VSK01V5Y/maxresdefault.jpg"
+                  />
+               </a>
+               <!--New Video-->
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://www.youtube.com/watch?v=9dsj9EkDXoI&mute=0"
+                  data-poster="https://img.youtube.com/vi/9dsj9EkDXoI/maxresdefault.jpg"
+                  data-sub-html="<h4>She Didn't Start the Fire: Lt. Ameleigh Mason | Match Cut Cinema | Directed by Faith Kazim</h4><p>Lt. Ameleigh Mason on the challenges and victories of being a female firefighter.</p>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="https://img.youtube.com/vi/9dsj9EkDXoI/maxresdefault.jpg"
+                  />
+               </a>
+               <!--New Video-->
+               <a
+                  data-lg-size="1280-720"
+                  data-src="https://www.youtube.com/watch?v=26pOm9EaKBU&mute=0"
+                  data-poster="https://img.youtube.com/vi/26pOm9EaKBU/maxresdefault.jpg"
+                  data-sub-html="<h4>2021: Peanut Butter Jelly Time | Match Cut Cinema | Directed by Faith Kazim</h4><p>When a peanut butter and jelly sandwich goes missing, can the culprit be found?</p>"
+               >
+                  <img
+                     width="49%"
+                     height=auto
+                     class="img-responsive"
+                     src="https://img.youtube.com/vi/26pOm9EaKBU/maxresdefault.jpg"
+                  />
+               </a>
+            </div>
+         </div>
+      </div>
+
+      <div class="contact" id="contact">
+         <div class="contact-left">
+            <div class="contact-title">Contact</div>
+            <p class="contact-description">For inquiries or to request film links, please feel free 
+               to reach out!
+            </p>
+            <hr class="showoff-zone-bar">
+            <ul class="contact-list">
+               <li>Mail: <a href="faith@matchcutcinema.com">faith@matchcutcinema.com</a></li>
+               <li>Phone: <a href="tel:+7544579310">(754) 457-9310</a></li>
+            </ul>
+         </div>
+         <!--<ul class="social-icons">
+            <li><a href="#" class="fa fa-twitter fa-2x" aria-hidden="true"></a></li>
+            <li><a href="#" class="fa fa-instagram fa-2x" aria-hidden="true"></a></li>
+            <li><a href="#" class="fa fa-vimeo fa-2x" aria-hidden="true"></a></li>
+            <li><a href="#" class="fa fa-youtube-play fa-2x" aria-hidden="true"></a></li>
+         </ul>-->
+      </div>
+
+      <div class="footer">
+         <hr class="footer-bar">
+         <div class="footer-text" id="">
+            Copyright © <strong>Match Cut Cinema 2021-2024</strong> | Designed by <a href="https://samuelseeman.com">Samuel Seeman</a>
+         </div>
+      </div>
+      
+      <!--JavaScript-->
+      <script src="js/script.js"></script>
+      <script src="lightgallery/lightgallery.umd.js"></script>
+      <script src="lightgallery/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+      <script src="lightgallery/plugins/video/lg-video.umd.js"></script>
+      <script src="js/hamburger.js"></script>
+      <script>
+         lightGallery(document.getElementById('gallery-videos'), {
+            plugins: [lgVideo],
+         });
+
+
+      </script>
+   </body>
+</html>
